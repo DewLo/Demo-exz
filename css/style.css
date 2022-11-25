@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+}
+
+.main {
+        
+}
+
+header {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    height: 70px;
+    background-color: bisque;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px gainsboro;
+    
+
+
+}
+
+h1 {
+    font-weight: 700;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+li {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 24px;
+    display: inline-block;
+    margin-left: 30px;
+}
