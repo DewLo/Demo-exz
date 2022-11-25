@@ -16,9 +16,9 @@ header {
     margin-right: 5%;
     margin-top: 2%;
     height: 70px;
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
     border-radius: 30px;
-    box-shadow: 10px 5px 5px gainsboro;
+    box-shadow: 10px 5px 5px 5px gainsboro;
     
 
 
@@ -26,6 +26,9 @@ header {
 
 h1 {
     font-weight: 700;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 10px;
     
     
 }
@@ -33,6 +36,7 @@ h1 {
 a {
     text-decoration: none;
     color: black;
+
     
 }
 
