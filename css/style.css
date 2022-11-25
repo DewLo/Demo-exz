@@ -1,15 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap');
-
+/* Based modification class */
 *{
     margin: 0;
     padding: 0;
     font-family: Raleway;
 }
-
-.main {
-        
-}
-
 header {
     width: 90%;
     margin-left: 5%;
@@ -18,12 +13,12 @@ header {
     height: 70px;
     background-color: rgb(255, 255, 255);
     border-radius: 30px;
-    box-shadow: 10px 5px 5px 5px gainsboro;
-    
+    box-shadow: 5px 5px 5px 5px gainsboro;
+    display: inline-block;
+ position: fixed;
 
 
 }
-
 h1 {
     font-weight: 700;
     display: inline-block;
@@ -32,14 +27,13 @@ h1 {
     
     
 }
-
 a {
     text-decoration: none;
     color: black;
+    text-align: center;
 
     
 }
-
 li {
     list-style-type: none;
     font-weight: 400;
@@ -47,3 +41,31 @@ li {
     display: inline-block;
     margin-left: 30px;
 }
+nav {
+    width: max-content;
+    height: max-content;
+    display: inline-block;
+    margin-left: 30%;
+
+}
+img {
+    width: 26px;
+    height: 26px;
+}
+
+
+
+
+/* modifecation class */
+.main {
+    
+    width: 90%;
+    height: 1000px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:rgb(232, 232, 232);
+    border-radius: 10px;  
+    box-shadow: 10px 5px 5px gainsboro;
+    
+}
+
